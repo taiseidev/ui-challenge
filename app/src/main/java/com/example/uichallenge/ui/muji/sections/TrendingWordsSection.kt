@@ -1,4 +1,4 @@
-package com.example.uichallenge.ui.muji
+package com.example.uichallenge.ui.muji.sections
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.ExperimentalLayoutApi
