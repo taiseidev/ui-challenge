@@ -10,8 +10,8 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
+import com.example.uichallenge.ui.DefaultPreviews
 import com.example.uichallenge.ui.components.IconTextButton
 import com.example.uichallenge.ui.muji.components.SearchInputField
 import com.example.uichallenge.ui.theme.UIChallengeTheme
@@ -45,7 +45,7 @@ fun SearchInputSection(
 }
 
 
-@Preview(showBackground = true)
+@DefaultPreviews
 @Composable
 fun SearchInputSectionPreview() {
     UIChallengeTheme {

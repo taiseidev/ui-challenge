@@ -7,9 +7,9 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import com.example.uichallenge.ui.DefaultPreviews
 import com.example.uichallenge.ui.theme.UIChallengeTheme
 
 @Composable
@@ -27,7 +27,7 @@ fun SearchHistoryListItem(word: String, onClick: (String) -> Unit) {
     )
 }
 
-@Preview(showBackground = true)
+@DefaultPreviews
 @Composable
 fun SearchHistoryListItemPreview() {
     UIChallengeTheme {

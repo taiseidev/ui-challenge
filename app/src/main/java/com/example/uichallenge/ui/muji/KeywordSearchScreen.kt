@@ -13,6 +13,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.uichallenge.ui.DefaultPreviews
 import com.example.uichallenge.ui.muji.sections.SearchHistorySection
 import com.example.uichallenge.ui.muji.sections.SearchInputSection
 import com.example.uichallenge.ui.muji.sections.TrendingWordsSection
@@ -54,7 +55,7 @@ fun KeywordSearchScreen() {
 }
 
 
-@Preview(showBackground = true)
+@DefaultPreviews
 @Composable
 fun KeywordSearchScreenPreview() {
     UIChallengeTheme {
